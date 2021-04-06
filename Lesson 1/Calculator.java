@@ -10,9 +10,10 @@ public class Calculator {
         System.out.println("Enter the second number");
         double num2 = scanner.nextDouble();
 
-        if (sign == '*') System.out.println("The result is " + (num1 * num2));
-        else if (sign == '/') {
-            System.out.println("The result is " + num1 / num2);
+        if (sign == '*') {
+            System.out.println("The result is " + (num1 * num2));
+        } else if (sign == '/') {
+            System.out.println("The result is " + (num1 / num2);
         } else if (sign == '^') {
             while (num2 > 1) {
                 num1 *= num1;
