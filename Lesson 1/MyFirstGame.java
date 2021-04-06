@@ -3,9 +3,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class MyFirstGame  {
+public class MyFirstGame {
     public static void main(String[] args) {
-
         int randomValue = getRandomValue();
         int playersValue;
         Scanner scanner = new Scanner(System.in);
@@ -18,10 +17,8 @@ public class MyFirstGame  {
             }
             else if (playersValue < randomValue)
                 System.out.println("Данное число меньше того, что загадал компьютер");
-
             else
                 System.out.println("Данное число больше того, что загадал компьютер");
-
         }
         
     }

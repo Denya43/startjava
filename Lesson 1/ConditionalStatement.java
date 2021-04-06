@@ -1,4 +1,4 @@
-public class ConditionalStatement  {	
+public class ConditionalStatement {	
     public static void main(String[] args) {
         int age = 5;
         char sex = 'm';

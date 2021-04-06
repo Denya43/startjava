@@ -3,19 +3,21 @@ public class Cycle  {
         for (int i = 0; i <= 20; i++){
             System.out.println(i);
         }
-        int temp = 6;
-        while (temp >= -6){
+
+        int counter= 6;
+        while (counter>= -6){
             System.out.println(temp);
-            temp = temp - 2;    
+            counter-= 2;    
         }
-        int temp2 = 10;
-        int numOfOddNumbers = 0;
-        do{
-            if (temp2%2==1) {
-                numOfOddNumbers++;
+
+        int counter2 = 10;
+        int sumOfOddNumbers = 0;
+        do {
+            if (counter2 % 2==1) {
+                sumOfOddNumbers += counter2;
             }
-            temp2++;
-        } while (temp2 < 20);
+            counter2++;
+        } while (counter2 < 20);
 
         System.out.println("The number of Odd values = " + numOfOddNumbers);
     }
