@@ -13,7 +13,7 @@ public class Calculator {
         if (sign == '*') {
             System.out.println("The result is " + (num1 * num2));
         } else if (sign == '/') {
-            System.out.println("The result is " + (num1 / num2);
+            System.out.println("The result is " + (num1 / num2));
         } else if (sign == '^') {
             while (num2 > 1) {
                 num1 *= num1;
