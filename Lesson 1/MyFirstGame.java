@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class MyFirstGame {
     public static void main(String[] args) {
-        int randomNumber = getRandomNumber();
+        int randomNumber = 7;
         int playerNumber;
         Scanner scanner = new Scanner(System.in);
 
@@ -11,15 +11,11 @@ public class MyFirstGame {
             if (playerNumber == randomNumber) {
                 System.out.println("Поздравляю, число угадано!");
                 break;
-            }
-            else if (playerNumber < randomNumber)
+            } else if (playerNumber < randomNumber) {
                 System.out.println("Данное число меньше того, что загадал компьютер");
-            else
+            } else {
                 System.out.println("Данное число больше того, что загадал компьютер");
+            }
         }     
-    }
-
-    private static int getRandomNumber() {
-        return 7;
     }
 }
