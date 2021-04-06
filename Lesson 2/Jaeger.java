@@ -1,27 +1,82 @@
-public class Jaeger  {	
+public class Jaeger {	
 
-	String modelName = "Bracer Phoenix";
-	String mark = "Mark-5";
-	String origin = "USA";
-	float height = 70.7f;
-	float weight = 2.1f;
-	int strength = 8;
-	int armor = 9;
+	String modelName;
+	String mark;
+	String origin;
+	float height;
+	float weight;
+	int strength;
+	int armor;
 
-	boolean drift(){
+	boolean drift() {
 		return true;
 	}
 
-	void move(){
+	void move() {
 		System.out.println("Moving");
 	}
 
-	String scanKaiju(){
+	String scanKaiju() {
 		return "scanning";
 	}
 
-	void useVortexCannon(){
+	void useVortexCannon() {
 		System.out.println("activated");
 	}
 
+	void useVortexCannon() {
+        System.out.println("activated");
+    }
+
+	public void setModelName(String modelName) {
+        this.modelName = modelName;
+    }
+
+    public String getMark() {
+        return mark;
+    }
+
+    public void setMark(String mark) {
+        this.mark = mark;
+    }
+
+    public String getOrigin() {
+        return origin;
+    }
+
+    public void setOrigin(String origin) {
+        this.origin = origin;
+    }
+
+    public float getHeight() {
+        return height;
+    }
+
+    public void setHeight(float height) {
+        this.height = height;
+    }
+
+    public float getWeight() {
+        return weight;
+    }
+
+    public void setWeight(float weight) {
+        this.weight = weight;
+    }
+
+    public int getStrength() {
+        return strength;
+    }
+
+    public void setStrength(int strength) {
+        this.strength = strength;
+    }
+
+    public int getArmor() {
+        return armor;
+    }
+
+    public void setArmor(int armor) {
+        this.armor = armor;
+    }
 }

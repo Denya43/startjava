@@ -1,4 +1,4 @@
-public class Person  {	
+public class Person {	
 	
 	String sex = "male";
 	String name = "Jager";
@@ -6,19 +6,19 @@ public class Person  {
 	int weight = 50;
 	int age = 25;
 
-	void walk(){
+	void walk() {
 		System.out.println("Ходить");
 	}
 
-	void sit(){
+	void sit() {
 		System.out.println("Сидеть");
 	}
 
-	void run(){
+	void run() {
 		System.out.println("Бежать");
 	}
 
-	void studyJava(){
+	void studyJava() {
 		System.out.println("Учить джаву");
 	}
 }
