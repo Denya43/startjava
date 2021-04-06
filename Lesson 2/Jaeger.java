@@ -24,10 +24,6 @@ public class Jaeger {
 		System.out.println("activated");
 	}
 
-	void useVortexCannon() {
-        System.out.println("activated");
-    }
-
 	public void setModelName(String modelName) {
         this.modelName = modelName;
     }

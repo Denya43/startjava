@@ -10,7 +10,7 @@ public class JaegerTest {
 		hunterVertigo.move();
 
 		Jaeger atlasDestroyer = new Jaeger();
-		atlasDestroyer.setModelName("Atlas Destroyer);
+		atlasDestroyer.setModelName("Atlas Destroyer");
 		atlasDestroyer.setMark("Mark-3");
 		atlasDestroyer.setOrigin("USA");
 		atlasDestroyer.setHeight(55.4f);
