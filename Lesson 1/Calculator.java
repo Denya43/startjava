@@ -30,6 +30,8 @@ public class Calculator {
             System.out.println(num1 + " - " + num2 + " = " + (num1 - num2));
         } else if (sign == '%') {
             System.out.println(num1 + " % " + num2 + " = " + num1 % num2);
-        } else System.out.println("You entered incorrect data");
+        } else {
+            System.out.println("You entered incorrect data");
+        }
     }
 }
