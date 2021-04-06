@@ -20,6 +20,6 @@ public class MyFirstGame {
     }
 
     private static int getRandomNumber() {
-        return 7ж
+        return 7;
     }
 }
