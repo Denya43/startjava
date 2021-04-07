@@ -10,11 +10,11 @@ public class WolfTest {
 
 		System.out.println("wolf characteristics {" + '\n' +
         		", Wolf's age = " + wolf.getAge() + '\n' +
-                ", Wolf's name = " + wolf.getNick() + '\n' +
-                ", Wolf's color = " + wolf.getColor() + '\n' +
-                ", Wolf's weight = " + wolf.getWeight() +  '\n' +
-                ", Wolf's height = " + wolf.getHeight() +  '\n' +
-                ", Wolf's sex = " + wolf.getSex() +  '\n' +
-                "}");
+        		", Wolf's name = " + wolf.getNick() + '\n' +
+        		", Wolf's color = " + wolf.getColor() + '\n' +
+        		", Wolf's weight = " + wolf.getWeight() +  '\n' +
+        		", Wolf's height = " + wolf.getHeight() +  '\n' +
+        		", Wolf's sex = " + wolf.getSex() +  '\n' +
+        		"}");
 	}
 }
