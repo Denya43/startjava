@@ -9,7 +9,7 @@ public class WolfTest {
 		wolf.setSex("Male");
 
 		System.out.println("wolf characteristics {" + '\n' +
-                ", Wolf's age = " + wolf.getAge() + '\n' +
+        		", Wolf's age = " + wolf.getAge() + '\n' +
                 ", Wolf's name = " + wolf.getNick() + '\n' +
                 ", Wolf's color = " + wolf.getColor() + '\n' +
                 ", Wolf's weight = " + wolf.getWeight() +  '\n' +
