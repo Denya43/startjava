@@ -1,6 +1,6 @@
 public class Wolf {	
 	
-	private String sex;
+    private String sex;
     private String nickname;
     private String color;
     private int height;
