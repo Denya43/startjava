@@ -78,5 +78,4 @@ public class Wolf {
     public void setWeight(int weight) {
         this.weight = weight;
     }
-
 }
