@@ -21,7 +21,7 @@ public class CalculatorTest {
 				calculator.calculateTheResult(num1, sign, num2));
 			isNeedReply = "";
 			while (!isNeedReply.equals("yes") && !isNeedReply.equals("no")) {
-    			System.out.println("Do you want to continue the calculation? [yes/no]");
+    			System.out.println("Do you want to continue the calculation? [yes/no]:");
     			isNeedReply = scannerString.nextLine();
 			}
 			System.out.println("isNeedReply = " + isNeedReply);
