@@ -24,7 +24,6 @@ public class CalculatorTest {
     			System.out.println("Do you want to continue the calculation? [yes/no]:");
     			isNeedReply = scannerString.nextLine();
 			}
-			System.out.println("isNeedReply = " + isNeedReply);
 		} while (!isNeedReply.equals("no"));
 	} 
 }

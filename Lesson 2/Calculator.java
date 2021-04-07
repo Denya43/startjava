@@ -1,5 +1,5 @@
 public class Calculator {	
-	public double calculateTheResult (double num1, char sigh, double num2) {
+	public Double calculateTheResult (double num1, char sign, double num2) {
 		switch (sign) {
 			case '*' : return (num1 * num2);
 			case '/' : return (num1 / num2);
@@ -8,7 +8,7 @@ public class Calculator {
 			case '-' : return (num1 - num2);
 			case '%' : return (num1 % num2);
 		}
-		return 0.0;
+		return null;
 	}
 
 }
