@@ -1,3 +1,5 @@
+package src.com.startjava.lesson_2_3.robot
+
 public class JaegerTest {	
 	public static void main(String[] args) {
 		Jaeger hunterVertigo = new Jaeger();
@@ -17,6 +19,5 @@ public class JaegerTest {
 		atlasDestroyer.setWeight(2.0f);
 		atlasDestroyer.setArmor(10);
 		atlasDestroyer.scanKaiju();
-
 	}
 }

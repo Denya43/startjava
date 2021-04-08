@@ -1,3 +1,5 @@
+package src.com.startjava.lesson_2_3.animal
+
 public class Wolf {	
 	
     private String sex;
@@ -6,38 +8,6 @@ public class Wolf {
     private int height;
     private int weight;
     private int age;
-
-    public void walk() {
-        System.out.println("Ходить");
-    }
-
-    public void sit() {
-        System.out.println("Сидеть");
-    }
-
-    public void run() {
-        System.out.println("Бежать");
-    }
-
-    public void howl() {
-        System.out.println("Воет");
-    }
-
-    public void hunt() {
-        System.out.println("Охотится");
-    }
-
-    public int getAge() {
-        return age;
-    }
-    
-    public void setAge(int age) {
-        if (age > 0 & age <= 8) {
-            this.age = age;
-        } else {
-            System.out.println("Некорректный возраст");
-        }
-    }
     
     public String getSex() {
         return sex;
@@ -77,5 +47,37 @@ public class Wolf {
 
     public void setWeight(int weight) {
         this.weight = weight;
+    }
+
+    public int getAge() {
+        return age;
+    }
+    
+    public void setAge(int age) {
+        if (age > 0 & age <= 8) {
+            this.age = age;
+        } else {
+            System.out.println("Некорректный возраст");
+        }
+    }
+
+    public void walk() {
+        System.out.println("Ходить");
+    }
+
+    public void sit() {
+        System.out.println("Сидеть");
+    }
+
+    public void run() {
+        System.out.println("Бежать");
+    }
+
+    public void howl() {
+        System.out.println("Воет");
+    }
+
+    public void hunt() {
+        System.out.println("Охотится");
     }
 }
