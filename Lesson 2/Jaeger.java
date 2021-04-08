@@ -1,32 +1,16 @@
 package src.com.startjava.lesson_2_3.robot
 
-public class Jaeger {	
+public class Jaeger {
 
-	String modelName;
-	String mark;
-	String origin;
-	float height;
-	float weight;
-	int strength;
-	int armor;
+    String modelName;
+    String mark;
+    String origin;
+    float height;
+    float weight;
+    int strength;
+    int armor;
 
-	boolean drift() {
-		return true;
-	}
-
-	void move() {
-		System.out.println("Moving");
-	}
-
-	String scanKaiju() {
-		return "scanning";
-	}
-
-	void useVortexCannon() {
-		System.out.println("activated");
-	}
-
-	public void setModelName(String modelName) {
+    public void setModelName(String modelName) {
         this.modelName = modelName;
     }
 
@@ -76,5 +60,21 @@ public class Jaeger {
 
     public void setArmor(int armor) {
         this.armor = armor;
+    }
+    
+    boolean drift() {
+        return true;
+    }
+
+    void move() {
+        System.out.println("Moving");
+    }
+
+    String scanKaiju() {
+        return "scanning";
+    }
+
+    void useVortexCannon() {
+        System.out.println("activated");
     }
 }

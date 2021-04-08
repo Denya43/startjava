@@ -16,7 +16,7 @@ public class GuessNumberTest {
             guessNumber.play();
             do {
                 System.out.println("Хотите продолжить игру? [yes/no]:");
-                isNeedReply = scanner.nextLine();
+                needReply = scanner.nextLine();
             } while (!needReply.equals("yes") && !needReply.equals("no"));
         } while (!needReply.equals("no"));
     }

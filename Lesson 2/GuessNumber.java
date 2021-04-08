@@ -14,16 +14,16 @@ public class GuessNumber {
 
     public void play() {
         Scanner scanner = new Scanner(System.in);
-        int random_number = (int) (Math.random() * 10);
+        int randomNumber = (int) (Math.random() * 10);
         do {
             System.out.println(player1.getName() + " введите число!");
             player1.setNumber(scanner.nextInt());
-            if (compareNumbers(player1, random_number)) {
+            if (compareNumbers(player1, randomNumber)) {
                 break;
             }
             System.out.println(player2.getName() + " введите число!");
             player2.setNumber(scanner.nextInt());
-            if (compareNumbers(player2, random_number)) {
+            if (compareNumbers(player2, randomNumber)) {
                 break;
             }
         } while (true);
