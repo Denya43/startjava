@@ -23,5 +23,4 @@ public class Cycle {
 
         System.out.println("The sum of Odd numbers in range from 10 to 20 = " + sumOfOddNumbers);
     }
-
 }

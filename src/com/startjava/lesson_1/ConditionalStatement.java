@@ -1,11 +1,11 @@
-public class ConditionalStatement {	
+public class ConditionalStatement { 
     public static void main(String[] args) {
         int age = 5;
         char sex = 'm';
         float height = 1.8f;
         char firstLetterOfName = 'I';
 
-    	if (age > 20) {
+        if (age > 20) {
             System.out.println("The age is higher than 20");
         }
 

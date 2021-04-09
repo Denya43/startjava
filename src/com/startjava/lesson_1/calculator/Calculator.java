@@ -1,6 +1,8 @@
+package src.com.startjava.lesson_1.calculator
+
 import java.util.Scanner;
 
-public class Calculator {	
+public class Calculator {   
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the first number");

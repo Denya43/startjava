@@ -1,3 +1,5 @@
+package src.com.startjava.lesson_2_3.calculator
+
 import java.util.Scanner;
 
 public class CalculatorTest {
@@ -7,7 +9,6 @@ public class CalculatorTest {
         char sign;
         Calculator calculator = new Calculator();
         Scanner scanner = new Scanner(System.in); 
-        Scanner scannerString = new Scanner(System.in);
         String needReply;
 
         do {
@@ -17,10 +18,10 @@ public class CalculatorTest {
             sign = scanner.next().charAt(0);
             System.out.println("Enter the second number");
             num2 = scanner.nextDouble();
-            System.out.println("The result of the calculation is " + calculator.calculateTheResult(num1, sign, num2));
+            System.out.println("The result of the calculation is " + calculator.calculate(num1, sign, num2));
             do {
                 System.out.println("Do you want to continue the calculation? [yes/no]:");
-                needReply = scannerString.nextLine();
+                needReply = scanner.nextLine();
             } while (!needReply.equals("yes") && !needReply.equals("no"));
         } while (!needReply.equals("no"));
     } 

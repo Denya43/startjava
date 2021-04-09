@@ -1,5 +1,7 @@
+package src.com.startjava.lesson_2_3.calculator
+
 public class Calculator {
-    public Double calculateTheResult(double num1, char sign, double num2) {
+    public double calculate(double num1, char sign, double num2) {
         switch (sign) {
             case '*' : return (num1 * num2);
             case '/' : return (num1 / num2);
@@ -8,6 +10,6 @@ public class Calculator {
             case '-' : return (num1 - num2);
             case '%' : return (num1 % num2);
         }
-        return null;
+        return 0;
     }
 }
