@@ -1,4 +1,4 @@
-package src.com.startjava.lesson_1.game
+package com.startjava.lesson_1.game;
 
 import java.util.Scanner;
 

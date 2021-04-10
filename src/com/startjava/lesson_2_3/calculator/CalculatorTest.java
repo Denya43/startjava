@@ -1,24 +1,21 @@
 package com.startjava.lesson_2_3.calculator;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class CalculatorTest {
     public static void main(String[] args) {
-        double num1;
-        double num2;
-        char sign;
+        String mathExpression;
         Calculator calculator = new Calculator();
         Scanner scanner = new Scanner(System.in); 
         String needReply;
+        String[] array;
 
         do {
-            System.out.println("Enter the first number");
-            num1 = scanner.nextDouble();
-            System.out.println("Enter the type of operation");
-            sign = scanner.next().charAt(0);
-            System.out.println("Enter the second number");
-            num2 = scanner.nextDouble();
-            System.out.println("The result of the calculation is " + calculator.calculate(num1, sign, num2));
+            System.out.println("Enter the first number, sign and the second number:");
+            mathExpression = scanner.nextLine();
+            array = mathExpression.split(" ");
+            System.out.println("The result of the calculation is " + calculator.calculate(Integer.parseInt(array[0]), array[1], Integer.parseInt(array[2])));
             do {
                 System.out.println("Do you want to continue the calculation? [yes/no]:");
                 needReply = scanner.nextLine();
