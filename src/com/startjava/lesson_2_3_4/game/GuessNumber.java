@@ -56,9 +56,9 @@ public class GuessNumber {
                     + player.getCounter() + " попытки");
             return true;
         }
-        String playerStatus = player.getNumber() < randomNumber ? " данное число меньше того, что загадал компьютер"
-                : " данное число больше того, что загадал компьютер";
-        System.out.println(player.getName() + playerStatus);
+        String playerStatus = player.getNumber() < randomNumber ? "данное число меньше того, что загадал компьютер"
+                : "данное число больше того, что загадал компьютер";
+        System.out.println(player.getName() + " " + playerStatus);
         return false;
     }
 
