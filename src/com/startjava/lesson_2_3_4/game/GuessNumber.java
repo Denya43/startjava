@@ -6,7 +6,7 @@ public class GuessNumber {
 
     private final Player player1;
     private final Player player2;
-    int randomNumber;
+    private int randomNumber;
 
     public GuessNumber(Player player1, Player player2) {
         this.player1 = player1;
@@ -23,12 +23,12 @@ public class GuessNumber {
                 System.out.println("Игра окончена, игроки не угадали число");
                 break;
             }
-        } while (!(playerGuessedNumber(player1) || playerGuessedNumber(player2)));
+        } while (!(makeMove(player1) || makeMove(player2)));
         showEnteredNumbers(player1);
         showEnteredNumbers(player2);
     }
 
-    private boolean playerGuessedNumber(Player player) {
+    private boolean makeMove(Player player) {
         if (player.getCounter() < 10) {
             enterNumber(player);
             return compareNumbers(player, randomNumber);
@@ -49,16 +49,15 @@ public class GuessNumber {
                     + player.getCounter() + " попытки" + '\n');
             return true;
         }
-        String playerStatus = player.getLastNumber() < randomNumber ? "меньше"
-                : "больше";
+        String playerStatus = player.getLastNumber() < randomNumber ? "меньше" : "больше";
         System.out.println(player.getName() + " " + "данное число " + playerStatus + " того, что загадал компьютер");
         return false;
     }
 
     private void showEnteredNumbers(Player player) {
         System.out.print("Игрок " + player.getName() + " ввел за игру следующие значения:");
-        for (int x : player.getEnteredNumbers()) {
-            System.out.print(" " + x);
+        for (int number : player.getEnteredNumbers()) {
+            System.out.print(" " + number);
         }
         System.out.println();
     }
